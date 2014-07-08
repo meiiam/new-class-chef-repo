@@ -16,9 +16,9 @@ Instructions:
     - `knife cookbook upload [-o path/to/cookbooks] --all`
     - `knife cookbook upload [-o path/to/site-cookbooks] --all`
     - `knife role from file [path/to/roles/base.rb]`
-    - `knife ec2 server create [options -N node_name]`
-    - `knife ec2 server list`
     - `knife node list`
     - `knife node create [node_name]`
     - `knife node run_list add [node_name] 'role[base]'`
+    - `knife ec2 server create [options -N node_name]`
+    - `knife ec2 server list`
     - run `sudo chef-client` on your newly created ec2 server
